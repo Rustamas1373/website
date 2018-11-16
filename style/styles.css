@@ -17,11 +17,12 @@ ul {
   list-style-type: none;
 }
   
-li {
+li a{
+  background-image: url("http://resources.guild-hosting.net/201604011348/themes/core/images/tag_fx/sparkle_yellow.gif");
+  text-shadow: #1dff00  0 0 10px;
   height: 25px;
   float: left;
   margin-right: 0px;
-  border-right: 1px solid #1dff00;
   padding: 0px 20px;
 }
   
@@ -29,7 +30,7 @@ li:last-child {
   border-right: none;
 }
 
-li a {
+li a{
   text-decoration: none;
   color: #ccc;
   font: 25px/1 Helvetica, Verdana, sans-serif;
@@ -37,11 +38,6 @@ li a {
   transition: all 0.5s ease;
 }
 
-li:hover {
-  color: purple;
-}
-
-li.active a {
-  font-weight: bold;
-  color: black;
+li.active a:hover {
+  color: #1dff00;
 }
